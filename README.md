@@ -25,3 +25,8 @@ This model is **not yet released** — coming soon!
 <audio controls>
   <source src="audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectSOURCE/spk_0011/phrase_15/target_Angry/SourcePhraseID_15_SourceEmotion_Angry_TargetPhraseID_15_TargetEmotion_Angry_SpeakerID_0011.wav" type="audio/wav">
 </audio>
+
+
+
+https://github.com/user-attachments/assets/72f116c5-cdd3-4121-b59e-8a62ac15e000
+
