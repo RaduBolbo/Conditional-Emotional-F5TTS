@@ -23,67 +23,94 @@
   <p>Each row shows a generated version of the same phrase conditioned on a specific emotion.</p>
   <p>All audios below are obtained by using inference on texts and reference audios unseen during training (from validation dataset).</p>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Reference Audio</th>
-        <th>Generated Audio</th>
-        <th>Emotion</th>
-        <th>Text</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td rowspan="5">
-          <audio controls>
-            <source src="audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectTARGET/spk_0011/phrase_19/REF_SourcePhraseID_37_SourceEmotion_Surprise.mp3" type="audio/mpeg">
-          </audio>
-        </td>
-        <td>
-          <audio controls>
-            <source src="audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectTARGET/spk_0011/phrase_19/SourcePhraseID_37_SourceEmotion_Surprise_TargetPhraseID_19_TargetEmotion_Neutral_SpeakerID_0011.mp3" type="audio/mpeg">
-          </audio>
-        </td>
-        <td>Neutral</td>
-        <td>The quick brown fox jumps over the lazy dog.</td>
-      </tr>
-      <tr>
-        <td>
-          <audio controls>
-            <source src="audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectTARGET/spk_0011/phrase_19/SourcePhraseID_37_SourceEmotion_Surprise_TargetPhraseID_19_TargetEmotion_Happy_SpeakerID_0011.mp3" type="audio/mpeg">
-          </audio>
-        </td>
-        <td>Happy</td>
-        <td>The quick brown fox jumps over the lazy dog.</td>
-      </tr>
-      <tr>
-        <td>
-          <audio controls>
-            <source src="audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectTARGET/spk_0011/phrase_19/SourcePhraseID_37_SourceEmotion_Surprise_TargetPhraseID_19_TargetEmotion_Sad_SpeakerID_0011.mp3" type="audio/mpeg">
-          </audio>
-        </td>
-        <td>Sad</td>
-        <td>The quick brown fox jumps over the lazy dog.</td>
-      </tr>
-      <tr>
-        <td>
-          <audio controls>
-            <source src="audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectTARGET/spk_0011/phrase_19/SourcePhraseID_37_SourceEmotion_Surprise_TargetPhraseID_19_TargetEmotion_Angry_SpeakerID_0011.mp3" type="audio/mpeg">
-          </audio>
-        </td>
-        <td>Angry</td>
-        <td>The quick brown fox jumps over the lazy dog.</td>
-      </tr>
-      <tr>
-        <td>
-          <audio controls>
-            <source src="audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectTARGET/spk_0011/phrase_19/SourcePhraseID_37_SourceEmotion_Surprise_TargetPhraseID_19_TargetEmotion_Surprised_SpeakerID_0011.mp3" type="audio/mpeg">
-          </audio>
-        </td>
-        <td>Surprised</td>
-        <td>The quick brown fox jumps over the lazy dog.</td>
-      </tr>
-    </tbody>
-  </table>
+
+  
+<table>
+  <thead>
+    <tr>
+      <th>Reference Audio</th>
+      <th>Generated Audio (Intensity = 10)</th>
+      <th>Generated Audio (Intensity = 20)</th>
+      <th>Emotion</th>
+      <th>Text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_10/REF_SourcePhraseID_32_SourceEmotion_Happy.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_10/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Neutral_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_20/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Neutral_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Neutral</td>
+      <td rowspan="5">The quick brown fox jumps over the lazy dog.</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_10/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Happy_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_20/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Happy_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Happy</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_10/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Sad_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_20/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Sad_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Sad</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_10/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Angry_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_20/SourcePhraseID_32_SourceEmotion_Angry_TargetPhraseID_11_TargetEmotion_Neutral_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Angry</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_10/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Surprised_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_20/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Surprised_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Surprised</td>
+    </tr>
+  </tbody>
+</table>
+
+
+  
 </body>
 </html>
