@@ -10,7 +10,10 @@ Click to listen:
 
 | Emotion  | Example |
 |----------|---------|
-| Happy    | 🔊 [Listen](https://your-hosted-link.com/happy.wav) |
+| Happy    | 🔊 <audio controls>
+  <source src="https://yourdomain.com/audio/happy.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio> |
 | Sad      | 🔊 [Listen](https://your-hosted-link.com/sad.wav) |
 | Angry    | 🔊 [Listen](https://your-hosted-link.com/angry.wav) |
 | Neutral  | 🔊 [Listen](https://your-hosted-link.com/neutral.wav) |
