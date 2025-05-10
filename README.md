@@ -11,9 +11,9 @@ Click to listen:
 | Emotion  | Example |
 |----------|---------|
 | Happy    | 🔊 <audio controls>
-  <source src="[https://yourdomain.com/audio/happy.wav](https://ctipub-my.sharepoint.com/:u:/g/personal/radu_bolborici_stud_etti_upb_ro/EdcpvRJEp2FBtPe7ZYPi_5YBMsVnjUWCwSF2DVcZDb3jeQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vLE6BK)" type="audio/wav">
-  Your browser does not support the audio element.
-    </audio> |
+<audio controls>
+  <source src="[https://yourusername.github.io/your-repo/audio/happy.wav](https://ctipub-my.sharepoint.com/:u:/g/personal/radu_bolborici_stud_etti_upb_ro/EdcpvRJEp2FBtPe7ZYPi_5YBMsVnjUWCwSF2DVcZDb3jeQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ge4akV)" type="audio/wav">
+</audio> |
 | Sad      | 🔊 [Listen](https://your-hosted-link.com/sad.wav) |
 | Angry    | 🔊 [Listen](https://your-hosted-link.com/angry.wav) |
 | Neutral  | 🔊 [Listen](https://your-hosted-link.com/neutral.wav) |
