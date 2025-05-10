@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>F5TTS Emotion Demo</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #aaa;
+      padding: 10px;
+      text-align: center;
+    }
+    audio {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎧 F5-TTS Emotional Speech Demo</h1>
+  <p>Each row shows a generated version of the same phrase conditioned on a specific emotion.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Reference Audio</th>
+        <th>Generated Audio</th>
+        <th>Emotion</th>
+        <th>Text</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="5">
+          <audio controls>
+            <source src="../audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectTARGET/spk_0011
+/phrase_19/REF_SourcePhraseID_37_SourceEmotion_Surprise.wav" type="audio/wav">
+          </audio>
+        </td>
+        <td>
+          <audio controls>
+            <source src="../audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectTARGET/spk_0011
+/phrase_19/SourcePhraseID_37_SourceEmotion_Surprise_TargetPhraseID_19_TargetEmotion_Neutral_SpeakerID_0011.wav" type="audio/wav">
+          </audio>
+        </td>
+        <td>Neutral</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+      <tr>
+        <td>
+          <audio controls>
+            <source src="../audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectTARGET/spk_0011
+/phrase_19/SourcePhraseID_37_SourceEmotion_Surprise_TargetPhraseID_19_TargetEmotion_Happy_SpeakerID_0011.wav" type="audio/wav">
+          </audio>
+        </td>
+        <td>Happy</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+      <tr>
+        <td>
+          <audio controls>
+            <source src="../audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectTARGET/spk_0011
+/phrase_19/spk_0011/phrase_15/SourcePhraseID_37_SourceEmotion_Surprise_TargetPhraseID_19_TargetEmotion_Sad_SpeakerID_0011.wav" type="audio/wav">
+          </audio>
+        </td>
+        <td>Sad</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+      <tr>
+        <td>
+          <audio controls>
+            <source src="../audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectTARGET/spk_0011
+/phrase_19/SourcePhraseID_37_SourceEmotion_Surprise_TargetPhraseID_19_TargetEmotion_Angry_SpeakerID_0011.wav" type="audio/wav">
+          </audio>
+        </td>
+        <td>Angry</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+      <tr>
+        <td>
+          <audio controls>
+            <source src="../audios/Samples_to_listen/F5TTS_cfgstrength_10_inspectTARGET/spk_0011
+/phrase_19/SourcePhraseID_37_SourceEmotion_Surprise_TargetPhraseID_19_TargetEmotion_Surprised_SpeakerID_0011.wav" type="audio/wav">
+          </audio>
+        </td>
+        <td>Surprised</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
