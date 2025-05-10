@@ -20,3 +20,8 @@ Click to listen:
 
 ## 📌 Note
 This model is **not yet released** — coming soon!
+
+<h2>Happy</h2>
+<audio controls>
+  <source src="audios/happy.wav" type="audio/wav">
+</audio>
