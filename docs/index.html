@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>F5TTS Emotion Demo</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #aaa;
+      padding: 10px;
+      text-align: center;
+    }
+    audio {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎧 F5-TTS Emotional Speech Demo</h1>
+  <p>Each row shows a generated version of the same phrase conditioned on a specific emotion.</p>
+  <p>All audios below are obtained by using inference on texts and reference audios unseen during training (from validation dataset).</p>
+
+<!-- DOWN IS 1st LINE ============================================================================================================= -->
+
+
+  <table>
+  <thead>
+    <tr>
+      <th>Reference Audio</th>
+      <th>Generated Audio (Intensity = 10)</th>
+      <th>Generated Audio (Intensity = 20)</th>
+      <th>Emotion</th>
+      <th>Text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_12_10/REF_SourcePhraseID_22_SourceEmotion_Neutral.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_12_10/SourcePhraseID_22_SourceEmotion_Neutral_TargetPhraseID_12_TargetEmotion_Neutral_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_12_20/SourcePhraseID_31_SourceEmotion_Neutral_TargetPhraseID_12_TargetEmotion_Neutral_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Neutral</td>
+      <td rowspan="5">I have bum-breed all over goat on two sepparate occasions.</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_12_10/SourcePhraseID_22_SourceEmotion_Neutral_TargetPhraseID_12_TargetEmotion_Happy_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_12_20/SourcePhraseID_31_SourceEmotion_Neutral_TargetPhraseID_12_TargetEmotion_Happy_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Happy</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_12_10/SourcePhraseID_22_SourceEmotion_Neutral_TargetPhraseID_12_TargetEmotion_Sad_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_12_20/SourcePhraseID_31_SourceEmotion_Neutral_TargetPhraseID_12_TargetEmotion_Sad_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Sad</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_12_10/SourcePhraseID_22_SourceEmotion_Neutral_TargetPhraseID_12_TargetEmotion_Angry_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_12_20/SourcePhraseID_31_SourceEmotion_Neutral_TargetPhraseID_12_TargetEmotion_Angry_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Angry</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_12_10/SourcePhraseID_22_SourceEmotion_Neutral_TargetPhraseID_12_TargetEmotion_Surprise_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_12_20/SourcePhraseID_31_SourceEmotion_Neutral_TargetPhraseID_12_TargetEmotion_Surprise_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Surprise</td>
+    </tr>
+  </tbody>
+</table>
+  
+
+<!-- DOWN IS 2nd LINE ============================================================================================================= -->
+<table>
+  <thead>
+    <tr>
+      <th>Reference Audio</th>
+      <th>Generated Audio (Intensity = 10)</th>
+      <th>Generated Audio (Intensity = 20)</th>
+      <th>Emotion</th>
+      <th>Text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0015/phrase_22_10/REF_SourcePhraseID_58_SourceEmotion_Neutral.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0015/phrase_22_10/SourcePhraseID_58_SourceEmotion_Neutral_TargetPhraseID_22_TargetEmotion_Neutral_SpeakerID_0015.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0015/phrase_22_20/SourcePhraseID_50_SourceEmotion_Neutral_TargetPhraseID_22_TargetEmotion_Neutral_SpeakerID_0015.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Neutral</td>
+      <td rowspan="5">I thought you meant how old are you.</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0015/phrase_22_10/SourcePhraseID_58_SourceEmotion_Neutral_TargetPhraseID_22_TargetEmotion_Happy_SpeakerID_0015.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0015/phrase_22_20/SourcePhraseID_50_SourceEmotion_Neutral_TargetPhraseID_22_TargetEmotion_Happy_SpeakerID_0015.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Happy</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0015/phrase_22_10/SourcePhraseID_58_SourceEmotion_Neutral_TargetPhraseID_22_TargetEmotion_Sad_SpeakerID_0015.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0015/phrase_22_20/SourcePhraseID_50_SourceEmotion_Neutral_TargetPhraseID_22_TargetEmotion_Sad_SpeakerID_0015.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Sad</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0015/phrase_22_10/SourcePhraseID_58_SourceEmotion_Neutral_TargetPhraseID_22_TargetEmotion_Angry_SpeakerID_0015.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0015/phrase_22_20/SourcePhraseID_50_SourceEmotion_Neutral_TargetPhraseID_22_TargetEmotion_Angry_SpeakerID_0015.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Angry</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0015/phrase_22_10/SourcePhraseID_58_SourceEmotion_Neutral_TargetPhraseID_22_TargetEmotion_Surprise_SpeakerID_0015.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0015/phrase_22_20/SourcePhraseID_50_SourceEmotion_Neutral_TargetPhraseID_22_TargetEmotion_Surprise_SpeakerID_0015.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Surprise</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!-- DOWN IS 3rd LINE ============================================================================================================= -->
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Reference Audio</th>
+      <th>Generated Audio (Intensity = 10)</th>
+      <th>Generated Audio (Intensity = 20)</th>
+      <th>Emotion</th>
+      <th>Text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_11_10/REF_SourcePhraseID_12_SourceEmotion_Neutral.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_11_10/SourcePhraseID_12_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Neutral_SpeakerID_0011.wav
+" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_11_20/SourcePhraseID_14_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Neutral_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Neutral</td>
+      <td rowspan="5">Her shoes were like fishes.</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_11_10/SourcePhraseID_12_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Happy_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_11_20/SourcePhraseID_14_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Happy_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Happy</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_11_10/SourcePhraseID_12_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Sad_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_11_20/SourcePhraseID_14_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Sad_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Sad</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_11_10/SourcePhraseID_12_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Angry_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_11_20/SourcePhraseID_14_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Angry_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Angry</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_11_10/SourcePhraseID_12_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Surprise_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten2/spk_0011/phrase_11_20/SourcePhraseID_14_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Surprise_SpeakerID_0011.wav" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Surprise</td>
+    </tr>
+  </tbody>
+</table>
+  
+
+  
+
+
+<!-- DOWN IS BAD ============================================================================================================= -->
+  
+<table>
+  <thead>
+    <tr>
+      <th>Reference Audio</th>
+      <th>Generated Audio (Intensity = 10)</th>
+      <th>Generated Audio (Intensity = 20)</th>
+      <th>Emotion</th>
+      <th>Text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_10/REF_SourcePhraseID_32_SourceEmotion_Happy.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_10/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Neutral_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_20/SourcePhraseID_47_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Neutral_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Neutral</td>
+      <td rowspan="5">Her shoes were like fishes.</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_10/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Happy_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_20/SourcePhraseID_47_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Happy_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Happy</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_10/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Sad_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_20/SourcePhraseID_47_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Sad_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Sad</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_10/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Angry_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_20/SourcePhraseID_47_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Angry_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Angry</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_10/SourcePhraseID_32_SourceEmotion_Happy_TargetPhraseID_11_TargetEmotion_Surprise_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0011/phrase_11_20/SourcePhraseID_47_SourceEmotion_Neutral_TargetPhraseID_11_TargetEmotion_Surprise_SpeakerID_0011.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Surprised</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+  <!-- 
+
+<table>
+  <thead>
+    <tr>
+      <th>Reference Audio</th>
+      <th>Generated Audio (Intensity = 10)</th>
+      <th>Generated Audio (Intensity = 20)</th>
+      <th>Emotion</th>
+      <th>Text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0015/phrase_36_10/REF_SourcePhraseID_34_SourceEmotion_Angry.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0015/phrase_36_10/SourcePhraseID_34_SourceEmotion_Angry_TargetPhraseID_36_TargetEmotion_Neutral_SpeakerID_0015.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0015/phrase_36_20/SourcePhraseID_49_SourceEmotion_Neutral_TargetPhraseID_36_TargetEmotion_Neutral_SpeakerID_0015.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Neutral</td>
+      <td rowspan="5">I think it will encourage me.</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0015/phrase_36_10/SourcePhraseID_34_SourceEmotion_Angry_TargetPhraseID_36_TargetEmotion_Happy_SpeakerID_0015.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0015/phrase_36_20/SourcePhraseID_49_SourceEmotion_Neutral_TargetPhraseID_36_TargetEmotion_Happy_SpeakerID_0015.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Happy</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0015/phrase_36_10/SourcePhraseID_34_SourceEmotion_Angry_TargetPhraseID_36_TargetEmotion_Sad_SpeakerID_0015.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0015/phrase_36_20/SourcePhraseID_49_SourceEmotion_Neutral_TargetPhraseID_36_TargetEmotion_Sad_SpeakerID_0015.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Sad</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0015/phrase_36_10/SourcePhraseID_34_SourceEmotion_Angry_TargetPhraseID_36_TargetEmotion_Angry_SpeakerID_0015.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0015/phrase_36_20/SourcePhraseID_49_SourceEmotion_Neutral_TargetPhraseID_36_TargetEmotion_Angry_SpeakerID_0015.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Angry</td>
+    </tr>
+    <tr>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0015/phrase_36_10/SourcePhraseID_34_SourceEmotion_Angry_TargetPhraseID_36_TargetEmotion_Surprise_SpeakerID_0015.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>
+        <audio controls>
+          <source src="audios/F5TTS_samplestolisten/spk_0015/phrase_36_20/SourcePhraseID_49_SourceEmotion_Neutral_TargetPhraseID_36_TargetEmotion_Surprise_SpeakerID_0015.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+      <td>Surprised</td>
+    </tr>
+  </tbody>
+</table>
+
+  -->
+
+  
+</body>
+</html>
